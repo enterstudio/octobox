@@ -27,8 +27,8 @@ end
 group :test do
   gem 'rake', '~> 12.0'
   gem 'factory_girl'
-  gem 'simplecov'
-  gem 'codeclimate-test-reporter'
+  gem 'simplecov', '>= 0.13.0'
+  gem 'codeclimate-test-reporter', '>= 1.0.8'
   gem 'webmock'
   gem 'mocha'
 end
