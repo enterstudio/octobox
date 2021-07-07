@@ -7,7 +7,7 @@ gem 'jquery-rails'
 gem 'kaminari'
 gem 'local_time', git: 'https://github.com/twalpole/local_time', branch: 'turbolinks5'
 gem 'octicons_helper'
-gem 'octokit', '~> 4.7'
+gem 'octokit', '~> 4.7', '>= 4.7.0'
 gem 'omniauth-github'
 gem 'pg'
 gem 'puma', '3.6.2'
@@ -29,7 +29,7 @@ group :test do
   gem 'factory_girl'
   gem 'simplecov'
   gem 'codeclimate-test-reporter'
-  gem 'webmock'
+  gem 'webmock', '>= 3.0.1'
   gem 'mocha'
 end
 
