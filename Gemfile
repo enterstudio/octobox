@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.4.1'
 
-gem 'rails', '~> 5.1'
+gem 'rails', '~> 6.1', '>= 6.1.7.3'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'kaminari'
@@ -16,12 +16,12 @@ gem 'turbolinks'
 gem 'typhoeus'
 gem 'uglifier'
 gem 'pg_search'
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.6.4'
 
 group :development, :test do
   gem 'byebug', platform: :mri
-  gem 'dotenv-rails'
-  gem 'rails-controller-testing'
+  gem 'dotenv-rails', '>= 2.7.6'
+  gem 'rails-controller-testing', '>= 1.0.3'
 end
 
 group :test do
@@ -43,7 +43,7 @@ end
 
 group :production do
   gem 'newrelic_rpm'
-  gem 'lograge'
+  gem 'lograge', '>= 0.9.0'
   gem 'rails_safe_tasks'
   gem 'bugsnag'
   gem 'puma_worker_killer'
