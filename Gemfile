@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.4.1'
 
-gem 'rails', '~> 5.1'
+gem 'rails', '~> 7.1', '>= 7.1.0'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'kaminari'
